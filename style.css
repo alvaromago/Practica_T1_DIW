@@ -2,6 +2,12 @@ html {
     overflow-x: hidden;
 }
 
+.c-nav {
+   margin-left: 10%;
+   margin-right: 10%;
+
+}
+
 .inicio {
     background-image: url("img/fondoInicio.png");
     background-position: center;
@@ -12,7 +18,8 @@ html {
 h1 {
     color: white;
     text-align: center;
-    font-size: 550%;
+    font-size: 650%;
+    position: absolute;
 }
 
 .pInicio {
@@ -87,98 +94,6 @@ p, h4 {
     cursor: pointer;
     background-color: #086bff;
     color: white;
-}
-
-.boton-fijo {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0px;
-    padding: 8px 20px;
-    background-color: #0074D9;
-    color: #fff;
-    border-radius: 20px;
-}
-
-.boton-fijo1 {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 81px;
-    padding: 8px 20px;
-    background-color: #0074D9;
-    color: #fff;
-    border-radius: 20px;
-}
-
-.boton-fijo2 {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 214px;
-    padding: 8px 20px;
-    background-color: #0074D9;
-    color: #fff;
-    border-radius: 20px;
-}
-
-.boton-fijo3 {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 358px;
-    padding: 8px 20px;
-    background-color: #0074D9;
-    color: #fff;
-    border-radius: 20px;
-}
-
-.boton-fijo4 {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 472px;
-    padding: 8px 20px;
-    background-color: #0074D9;
-    color: #fff;
-    border-radius: 20px;
-}
-
-.boton-fijo5 {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 577px;
-    padding: 8px 20px;
-    background-color: #0074D9;
-    color: #fff;
-    border-radius: 20px;
-}
-
-@media (max-width: 767px) {
-    .boton-fijo {
-        display: block;
-    }
-
-    .boton-fijo1 {
-        display: block;
-    }
-
-    .boton-fijo2 {
-        display: block;
-    }
-
-    .boton-fijo3 {
-        display: block;
-    }
-
-    .boton-fijo4 {
-        display: block;
-    }
-
-    .boton-fijo5 {
-        display: block;
-    }
 }
 
 @media (max-width: 1199px) {
