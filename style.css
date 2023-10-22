@@ -1,0 +1,192 @@
+html {
+    overflow-x: hidden;
+}
+
+.inicio {
+    background-image: url("img/fondoInicio.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 550%;
+}
+
+.pInicio {
+    color: white;
+    text-align: center;
+    font-size: 175%;
+    position: absolute;
+    bottom: 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 275%;
+    margin-bottom: 25px;
+}
+
+.caracs {
+    justify-content: space-between;
+}
+
+p, h4 {
+    justify-content: space-around;
+    text-align: center;
+}
+
+.beneficios {
+    justify-content: space-around;
+}
+
+.ben {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.benREST {
+    display: none;
+}
+
+#compra {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    border-radius: 50px;
+}
+
+#pagcon {
+    background-color: black;
+    color: white; 
+    font-size: 125%;
+    text-align: center;
+}
+
+#email, #nombre{
+    height: 25px;
+    margin: 12px;
+}
+
+#pagcon textarea {
+    margin: 17px;
+    resize: none;
+}
+
+#submit {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #086bff;
+    color: white;
+}
+
+.boton-fijo {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0px;
+    padding: 8px 20px;
+    background-color: #0074D9;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.boton-fijo1 {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 81px;
+    padding: 8px 20px;
+    background-color: #0074D9;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.boton-fijo2 {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 214px;
+    padding: 8px 20px;
+    background-color: #0074D9;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.boton-fijo3 {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 358px;
+    padding: 8px 20px;
+    background-color: #0074D9;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.boton-fijo4 {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 472px;
+    padding: 8px 20px;
+    background-color: #0074D9;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.boton-fijo5 {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 577px;
+    padding: 8px 20px;
+    background-color: #0074D9;
+    color: #fff;
+    border-radius: 20px;
+}
+
+@media (max-width: 767px) {
+    .boton-fijo {
+        display: block;
+    }
+
+    .boton-fijo1 {
+        display: block;
+    }
+
+    .boton-fijo2 {
+        display: block;
+    }
+
+    .boton-fijo3 {
+        display: block;
+    }
+
+    .boton-fijo4 {
+        display: block;
+    }
+
+    .boton-fijo5 {
+        display: block;
+    }
+}
+
+@media (max-width: 1199px) {
+    .benREST {
+        display: block;
+    }
+
+    .benXL {
+        display: none;
+    }
+}
