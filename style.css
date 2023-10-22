@@ -2,12 +2,6 @@ html {
     overflow-x: hidden;
 }
 
-.c-nav {
-   margin-left: 10%;
-   margin-right: 10%;
-
-}
-
 .inicio {
     background-image: url("img/fondoInicio.png");
     background-position: center;
@@ -15,11 +9,23 @@ html {
     background-size: cover;
 }
 
+.appleToggle {
+    display: none;
+}
+
+.appleBarra {
+    margin-right: 15px;
+}
+
+.txtNav {
+    font-weight: 500;
+}
+
 h1 {
     color: white;
     text-align: center;
-    font-size: 650%;
-    position: absolute;
+    font-size: 7rem;
+    margin-top: 1rem;
 }
 
 .pInicio {
@@ -32,7 +38,7 @@ h1 {
 
 h2 {
     text-align: center;
-    font-size: 275%;
+    font-size: 300%;
     margin-bottom: 25px;
 }
 
@@ -103,5 +109,19 @@ p, h4 {
 
     .benXL {
         display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 10rem;
+    }
+
+    .appleBarra {
+        display: none;
+    }
+
+    .appleToggle {
+        display: block;
     }
 }
